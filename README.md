@@ -4,7 +4,7 @@ This project is a clone of Netflix website. It is created using React, React-hoo
 
 ## Netflix Clone deployed below
 
-### https://netflix-clone-5589f.web.app/
+### https://netflix-clone-ac16f.web.app/
 
 ## Available Scripts
 
