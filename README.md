@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This project is a clone of Netflix website. It is created using React, React-hooks, Css and deployed in Firebase.
+
 ## Netflix Clone deployed below
 
 ### https://netflix-clone-5589f.web.app/
