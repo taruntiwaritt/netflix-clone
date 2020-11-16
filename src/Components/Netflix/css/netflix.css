@@ -1,0 +1,7 @@
+.first-page {
+  background-image: url("/public/background-signIn.jpg");
+
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}

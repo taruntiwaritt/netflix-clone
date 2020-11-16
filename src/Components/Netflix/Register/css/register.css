@@ -1,0 +1,20 @@
+.register {
+  width: 100vw;
+  height: auto;
+  padding-top: 3vw;
+  background: url(../../../../assets/background-signIn.jpg);
+  background-size: cover;
+}
+
+.register_netflix_logo {
+  position: relative;
+  left: 3vw;
+  width: 15vw;
+  height: auto;
+  object-fit: contain;
+}
+
+.sign-in-button {
+  float: right;
+  padding-right: 1vw;
+}
