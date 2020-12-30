@@ -34,18 +34,18 @@
 }
 
 .netflix .ui.grid .ui.row .ui.column .enjoy-tv-static {
-  padding: 9rem 3rem 0 0;
+  padding: 9rem 3rem 0 12rem;
   margin: 0 auto;
   align-items: center;
   display: block;
 }
-.enjoy-tv-title {
+.card-title {
   font-size: 3.125rem;
   line-height: 1.1;
   margin-bottom: 0.5rem;
 }
 
-.enjoy-tv-subtitle {
+.card-subtitle {
   font-size: 1.625rem;
   font-weight: 400;
 }
@@ -77,4 +77,29 @@
   vertical-align: baseline;
 
   object-fit: contain;
+}
+
+.download-card-img-container {
+  width: 48%;
+  height: 100%;
+  display: flex;
+  flex: 0 1 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.our-story-card-animation {
+  padding: 0.5em 0.75em;
+  position: absolute;
+  left: 50%;
+  bottom: 8%;
+  transform: translateX(-50%);
+  margin: 0 auto;
+  background: #000;
+  align-items: center;
+  width: 60%;
+  min-width: 15em;
+  border-radius: 0.75em;
+  box-shadow: 0 0 2em 0 #000;
+  border: 2px solid rgba(255, 255, 255, 0.25);
 }

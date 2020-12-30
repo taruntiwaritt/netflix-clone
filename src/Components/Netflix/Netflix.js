@@ -1,8 +1,9 @@
 import React from "react";
 import AuthenticateUser from "./Register/AuthenticateUser";
-import EnjoyTVContainer from "./EnjoyTVContainer";
+import EnjoyTVCard from "./EnjoyTVCard";
 
 import "./css/netflix.css";
+import DownloadShowsCard from "./DownloadShowsCard";
 function Netflix() {
   return (
     <div className="netflix">
@@ -14,7 +15,12 @@ function Netflix() {
         </div>
         <div className="ui row">
           <div className="ui column">
-            <EnjoyTVContainer />
+            <EnjoyTVCard />
+          </div>
+        </div>
+        <div className="ui row">
+          <div className="ui column">
+            <DownloadShowsCard />
           </div>
         </div>
       </div>

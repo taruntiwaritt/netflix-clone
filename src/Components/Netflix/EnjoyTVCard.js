@@ -6,8 +6,8 @@ function EnjoyTVContainer() {
       <div className="ui grid">
         <div className="equal width row">
           <div className="column enjoy-tv-static">
-            <h1 className="enjoy-tv-title">Enjoy on your TV.</h1>
-            <h2 className="enjoy-tv-subtitle">
+            <h1 className="card-title">Enjoy on your TV.</h1>
+            <h2 className="card-subtitle">
               Watch on smart TVs, PlayStation, Xbox,
               <br /> Chromecast, Apple TV, Blu-ray players and <br />
               more.
