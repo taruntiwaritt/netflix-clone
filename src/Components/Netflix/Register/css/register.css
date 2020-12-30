@@ -1,20 +1,53 @@
-.register {
+.register-background {
   width: 100vw;
   height: auto;
   padding-top: 3vw;
-  background: url(../../../../assets/background-signIn.jpg);
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.007),
+      rgba(255, 255, 255, 0.11)
+    ),
+    url(../../../../assets/background-signIn.jpg);
   background-size: cover;
 }
 
 .register_netflix_logo {
   position: relative;
-  left: 3vw;
-  width: 15vw;
+  left: 1vw;
+  width: 10vw;
   height: auto;
   object-fit: contain;
 }
 
 .sign-in-button {
   float: right;
-  padding-right: 1vw;
+  padding-right: 2vw;
+}
+
+.register-user {
+  text-align: center;
+
+  border-bottom: 8px solid #222;
+  padding: 70px 45px;
+}
+
+.email-field {
+  width: 30vw;
+  text-align: center;
+  display: inline-block;
+}
+
+.signup-email-form {
+  text-align: center;
+}
+
+.static-description {
+  padding-top: 8vw;
+}
+
+.get-started-button {
+  width: 15vw;
+}
+
+.register-user .ui.button {
+  font-size: 1.625rem;
 }
